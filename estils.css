@@ -20,3 +20,33 @@ a:hover {
     color: aquamarine;
     text-decoration: underline;
 }
+
+.class {
+    color: peru
+}
+
+#base {
+    color: fuchsia
+}
+
+ul > li:first-child {
+    color: gold
+}
+
+ol > li:last-child {
+    color: pink
+}
+
+#base > li {
+    color: green
+}
+
+h2:before {
+    content: "➤ ";
+    color: blue;
+}
+
+h2:after {
+    content: " 💻";
+    color: blue;
+}
